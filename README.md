@@ -1,6 +1,7 @@
 # Webdev-practice
 
-# HTML Topics :
+###### HTML Topics : #######
+
 # 1.Introduction
 # 2.Head
 # 3.List types
@@ -18,6 +19,5 @@
 # Shutterstack
 # pexel
 # pixabay
-
 # croping the image irfan view
 # tiny png to compress image
