@@ -13,3 +13,8 @@ body{
 #content{
   background-color:darkorchid;
 }
+
+table, th, td, tr{
+background-color: yellow;
+border: solid grey 2px;
+}
