@@ -9,3 +9,7 @@ body{
   width: 250px;
   height: 250px;
 }
+
+#content{
+  background-color:darkorchid;
+}
