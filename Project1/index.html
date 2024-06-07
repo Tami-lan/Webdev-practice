@@ -158,14 +158,14 @@
             <thead>
                 <tr>
                     <th> </th>
-                    <th>Food</th>
-                    <th>Price</th>
+                    <th scope="col">Food</th>
+                    <th scope="col">Price</th>
                 </tr>
             </thead>
 
             <tbody>
                 <tr>
-                    <td rowspan="2">Morning</td>
+                    <th rowspan="2" scope="row">Morning</th>
                     <td>Breakfast Combo1(Idly 1,Poori 1,Vada 1)</td>
                     <td>Rs.50</td>
                 </tr>
@@ -175,7 +175,7 @@
                 </tr>
 
                 <tr>
-                    <td rowspan="2">Afternoon</td>
+                    <th rowspan="2" scope="row">Afternoon</th>
                     <td>Lunch Combo1(Full Meals)</td>
                     <td>Rs.120</td>
                 </tr>
@@ -184,7 +184,7 @@
                     <td>Rs. 80</td>
                 </tr>
                 <tr>
-                    <td rowspan="2">Dinner</td>
+                    <th rowspan="2" scope="row">Dinner</th>
                     <td>Dinner Combo1(Dosa,Paroota,kalaki)</td>
                     <td>Rs.60</td>
                 </tr>
@@ -208,23 +208,52 @@
         <article>
             <h2 id="contact">Contact Me:</h2>
             <p>Please fill the Below form to contact me:</p>
+            <!-- form tag is used to create a form in html  -->
             <form action="" method="get">
                 <p>
+                    <!-- label is used to creat a lable of that input we must use the "for name" as like in input tag "id" and name also include in input tag these 3 must include -->
                     <label for="firstName">First Name:</label>
-                    <input type="text" name="firstName" id="firstName" placeholder="Give first name" autocomplete="on" required autofocus>
+                    <input type="text" name="firstName" id="firstName" placeholder="Give first name" autocomplete="on"
+                        required autofocus>
                 </p>
                 <p>
+                    <!-- autocomplete is used to give suggestion based on previous typed autofocus is used to focus the input tag by blinking the cursor -->
                     <label for="lastName">Last Name:</label>
-                    <input type="text" name="LastName" id="lastName" placeholder="Give last name" autocomplete="on" required>
+                    <input type="text" name="LastName" id="lastName" placeholder="Give last name" autocomplete="on"
+                        required>
                 </p>
                 <p>
                     <label for="password">Password:</label>
                     <input type="password" name="Password" id="password" required>
-                </p>                
+                </p>
                 <p>
+                    <!-- pattern attribute is used to indicate how we take input phone no in which pattern from user   -->
                     <label for="PhoneNo">Phone No:</label>
-                    <input type="tel" name="phonno" id="PhoneNo" required>
-                </p>                
+                    <input type="tel" name="phonno" id="PhoneNo" pattern="{0-9}{3}-{0-9}{3}-{0-9}{4}">
+                </p>
+
+                <p>
+                    <label for="decade">Fav Decade:</label>
+                    <input type="number" name="decade" id="decade" min="2000" max="2030" value="2000" step="10">
+                </p>
+
+                <p>
+                    <label for="topic">Learning Content:</label>
+                    <select name="topic" id="topic">
+                    <optgroup label="Frontend">
+                        <option value="html">Html</option>
+                        <option value="Css" selected>Css</option>
+                        <option value="html">Java Script</option>
+                        <option value="html">Angular</option>
+                    </optgroup>
+                   <optgroup label="Backend">
+                        <option value="html">NodeJs</option>
+                        <option value="html">ExpressJs</option>
+                        <option value="html">MongoDb</option>
+                    </optgroup>
+                    </select>
+
+                </p>
 
 
             </form>
