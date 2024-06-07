@@ -236,23 +236,33 @@
                     <label for="decade">Fav Decade:</label>
                     <input type="number" name="decade" id="decade" min="2000" max="2030" value="2000" step="10">
                 </p>
-
+                  <!-- Selecting option form the list of time  -->
                 <p>
                     <label for="topic">Learning Content:</label>
-                    <select name="topic" id="topic">
-                    <optgroup label="Frontend">
-                        <option value="html">Html</option>
-                        <option value="Css" selected>Css</option>
-                        <option value="html">Java Script</option>
-                        <option value="html">Angular</option>
-                    </optgroup>
-                   <optgroup label="Backend">
-                        <option value="html">NodeJs</option>
-                        <option value="html">ExpressJs</option>
-                        <option value="html">MongoDb</option>
-                    </optgroup>
+                    <select name="topic" id="topic" multiple size="2">
+                        <optgroup label="Frontend">
+                            <option value="html">Html</option>
+                            <option value="Css" selected>Css</option>
+                            <option value="html">Java Script</option>
+                            <option value="html">Angular</option>
+                        </optgroup>
+                        <optgroup label="Backend">
+                            <option value="html">NodeJs</option>
+                            <option value="html">ExpressJs</option>
+                            <option value="html">MongoDb</option>
+                        </optgroup>
                     </select>
 
+                </p>
+                <!-- typing option with in the list option shown -->
+                <p>
+                    <label for="topic">Learning Content:</label>
+                    <input type="text" name="content" id="topic" list="topiclist">
+                    <datalist id="topiclist">
+                        <option value="frontend">
+                        <option value="backend">
+                        <option value="Database">
+                    </datalist>
                 </p>
 
 
