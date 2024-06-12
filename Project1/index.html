@@ -209,7 +209,7 @@
             <h2 id="contact">Contact Me:</h2>
             <p>Please fill the Below form to contact me:</p>
             <!-- form tag is used to create a form in html  -->
-            <form action="https://httpbin.org/get" method="get">
+            <form action="https://httpbin.org/post" method="post">
                 <fieldset>
                     <legend>Personal Info</legend>
                     <p>
@@ -333,10 +333,24 @@
                     </p>
 
                 </fieldset>
+               
+
+
+                <hr>
+
+                <fieldset>
+                    <legend>Send Me a Note</legend>
+
+                    <label for="message">Your Message</label>
+                    <p>
+                        <textarea name="message" id="message" cols="30" rows="10"
+                            placeholder="Type your message"></textarea>
+                    </p>
+                </fieldset>
+
                 <br>
                 <button type="submit">Submit</button>
                 <button type="reset">Reset</button>
-
             </form>
         </article>
     </main>
