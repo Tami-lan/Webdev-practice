@@ -1,7 +1,10 @@
 img{
     width:250px
+    display:block;
 }
 
 input{
     display: block;
+    width: 400px;
 }
+
