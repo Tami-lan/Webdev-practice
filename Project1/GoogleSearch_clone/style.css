@@ -12,7 +12,9 @@ input{
     width: 500px;
     margin-right: auto;
     margin-left: auto;
-    padding: 10px;
+    padding: 9px;
+    border-radius: 20px;
+    border: 1px rgb(196, 192, 192) solid;
     
     
 }
@@ -24,4 +26,13 @@ div{
 button{
     padding: 5px;
     border: solid grey 1px;
+    
+    
+}
+
+p{
+    color:rgba(0,0,0,.87);
+    text-align: right;
+    font-family: arial,sans-serif;
+    margin-right: 2%;
 }
