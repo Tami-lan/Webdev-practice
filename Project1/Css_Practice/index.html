@@ -6,13 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>CSS_Practice</title>
+    <!-- Internal Css thake 2nd priority to apply the css. we declared in the head section -->
+    <style>
+        li{
+            color: yellow;
+        }
+    </style>
 </head>
+
 
 <body>
     <h1>Css Topics</h1>
     <h2>Css Style Apply</h2>
     <ol>
-        <li>Inline css</li>
+        <!-- Inline css take first priority to apply the css to that element declare directly inside that
+         element using style attribute-->
+        <li style="color: blue;">Inline css</li>
         <li>Internal Css</li>
         <li>External Css</li>
     </ol>
