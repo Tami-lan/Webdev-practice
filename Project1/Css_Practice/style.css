@@ -1,0 +1,6 @@
+/* External Css the is used to apply the css to that element externaly by  linking the css file in 
+that html file */
+
+li{ 
+    color: purple;
+}
