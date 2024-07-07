@@ -12,7 +12,10 @@ that html file */
 
 /* Element Selector  */
 body {
+    /* Here vh represent the viewport height . so,height of the body adjusted to viewport height
+    Which means browser display size*/
     background-color: #D68FD6;
+    height: 100vh;
 }
 
 li {
@@ -68,4 +71,5 @@ so, here parent element is bodyu tag :16 then 16*1=32 */
 
 main{
     font-size: 1em;
+    background-color: cornflowerblue;
 }
