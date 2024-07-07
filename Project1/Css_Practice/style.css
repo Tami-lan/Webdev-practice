@@ -8,7 +8,7 @@ that html file */
     margin: 0;
     padding: 0;
     
-
+}
 
 /* Element Selector  */
 body {
@@ -65,6 +65,7 @@ h1{
 
 /* Here 1em indicate the font size of the parent element*1.
 so, here parent element is bodyu tag :16 then 16*1=32 */
+
 main{
     font-size: 1em;
 }
