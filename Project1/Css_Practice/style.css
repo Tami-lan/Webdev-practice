@@ -5,7 +5,9 @@ that html file */
 
 * {
     font-family: monospace;
-}
+    margin: 0;
+    padding: 0;
+    
 
 
 /* Element Selector  */
@@ -23,10 +25,15 @@ li {
     color: aqua
 }
 
-/* selecting more than one class */
+/* selecting more than one class 
+Here 2rem indicate the font size of the rot element*2.
+so, here root element is html tag :16 then 16*2=32 */
 .para2,
 .para3 {
-    color: crimson
+    /* Here ch indicate width should be under 40 character width alone */
+    color: crimson;
+    font-size: 2rem;
+    width: 40ch;
 }
 
 /* Selecting the bl class which is inside para2 class */
@@ -49,6 +56,15 @@ header {
    will differ based on the screen size */
 
 h1{
+    /* for padding we can use em */
     border: 2px solid blue;
     width:50%;
+    font-size: 3rem;
+    padding: 1em;
+}
+
+/* Here 1em indicate the font size of the parent element*1.
+so, here parent element is bodyu tag :16 then 16*1=32 */
+main{
+    font-size: 1em;
 }
