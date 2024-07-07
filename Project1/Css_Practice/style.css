@@ -3,36 +3,52 @@ that html file */
 
 /*Universaml selector  */
 
- *{
-    font-family:monospace;
- }
+* {
+    font-family: monospace;
+}
 
- 
+
 /* Element Selector  */
-body{
+body {
     background-color: #D68FD6;
 }
 
-li{ 
+li {
     color: #010F20;
     font-size: 200%;
 }
 
 /*class Selector*/
-.para{
-    color:aqua
+.para {
+    color: aqua
 }
-/* selecting more than one class */
- .para2,.para3{
-    color:crimson
- }
-/* Selecting the bl class which is inside para2 class */
- .para2 .bl {
-     color: chartreuse;
- }
 
- 
- /* Id Selector  */
- #para1{
+/* selecting more than one class */
+.para2,
+.para3 {
+    color: crimson
+}
+
+/* Selecting the bl class which is inside para2 class */
+.para2 .bl {
+    color: chartreuse;
+}
+
+
+/* Id Selector  */
+#para1 {
     color: rgb(251, 255, 8);
- }
+}
+
+/* Here header will take width 50% of parent (body tag) */
+header {
+    width: 50%;
+}
+/* Here h1 child will take width 50% of parent (header tag)
+   pixel we can use for the boder for absolute value But for font we should not use. it 
+   will differ based on the screen size */
+
+h1{
+    border: 2px solid blue;
+    width:50%;
+}
