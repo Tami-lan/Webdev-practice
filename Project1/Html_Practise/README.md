@@ -29,11 +29,13 @@
 # 3. Selector (Element, Class, Id, Universal*)
 # 4. Colors [Rgb(255,230,0),Color name(Yellow), Hexa Value(#FF0024), hsl(240,100%,50%), 
 #     Rgba(255,230,160,1)a-transparency , hsla(240,100%,40%,0)]
+# 5. Units & Values (Absolute: cm, mm, inches, point, pixel, quatar millimeter,picas. 
+#                    Relative:% Percentage, em, rem)
 
 
 
 
 ######  important CSS Website : ###########
 
-# 1.cooors.co
+# 1.Color choosing site (https://coolors.co/)
 # 2. Css selector Specifity calculator (https://specificity.keegan.st/)

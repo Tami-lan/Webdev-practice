@@ -1,7 +1,38 @@
 /* External Css the is used to apply the css to that element externaly by  linking the css file in 
 that html file */
 
+/*Universaml selector  */
+
+ *{
+    font-family:monospace;
+ }
+
+ 
+/* Element Selector  */
+body{
+    background-color: #D68FD6;
+}
+
 li{ 
-    color: purple;
+    color: #010F20;
     font-size: 200%;
 }
+
+/*class Selector*/
+.para{
+    color:aqua
+}
+/* selecting more than one class */
+ .para2,.para3{
+    color:crimson
+ }
+/* Selecting the bl class which is inside para2 class */
+ .para2 .bl {
+     color: chartreuse;
+ }
+
+ 
+ /* Id Selector  */
+ #para1{
+    color: rgb(251, 255, 8);
+ }
