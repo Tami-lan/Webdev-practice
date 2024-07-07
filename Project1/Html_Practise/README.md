@@ -30,7 +30,7 @@
 # 4. Colors [Rgb(255,230,0),Color name(Yellow), Hexa Value(#FF0024), hsl(240,100%,50%), 
 #     Rgba(255,230,160,1)a-transparency , hsla(240,100%,40%,0)]
 # 5. Units & Values (Absolute: cm, mm, inches, point, pixel, quatar millimeter,picas. 
-#                    Relative:% Percentage, em, rem)
+#                    Relative:% Percentage, em, rem, vh,vw,ch)
 
 
 
