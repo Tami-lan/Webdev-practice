@@ -1,15 +1,16 @@
 /* External Css the is used to apply the css to that element externaly by  linking the css file in 
 that html file */
 
-/*Universaml selector  */
+/*Universal selector  */
 
-* {
+/* * {
     font-family: monospace;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
     
     
-}
+} */
 
 /* Element Selector  */
 body {
@@ -17,6 +18,10 @@ body {
     Which means browser display size*/
     background-color: #D68FD6;
     height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    font-family: monospace;
+    
 }
 
 li {
@@ -52,16 +57,16 @@ so, here root element is html tag :16 then 16*2=32 */
 }
 
 /* Here header will take width 50% of parent (body tag) */
-header {
+/* header {
     width: 100%;
-}
+} */
 /* Here h1 child will take width 50% of parent (header tag)
    pixel we can use for the boder for absolute value But for font we should not use. it 
    will differ based on the screen size */
 
 h1{
     /* for padding we can use em */
-    border: 2px solid blue;
+    border: 2px solid transparent;
     width: 50%;
     font-size: 2rem;
     
@@ -74,10 +79,13 @@ so, here parent element is bodyu tag :16 then 16*1=32 */
 main{
     font-size: 1em;
     background-color: cornflowerblue;
+
     
 }
 
 .box{
     margin: 2em;
-    
+    border: 2px solid blue;
+    width:80%;
+
 }
