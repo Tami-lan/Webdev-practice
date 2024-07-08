@@ -31,6 +31,8 @@
 #     Rgba(255,230,160,1)a-transparency , hsla(240,100%,40%,0)]
 # 5. Units & Values (Absolute: cm, mm, inches, point, pixel, quatar millimeter,picas. 
 #                    Relative:% Percentage, em, rem, vh,vw,ch)
+# 6. Box Model (Content, padding, Border, Margin, Outline)
+# 7.
 
 
 
