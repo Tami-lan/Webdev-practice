@@ -8,6 +8,7 @@ that html file */
     margin: 0;
     padding: 0;
     
+    
 }
 
 /* Element Selector  */
@@ -52,7 +53,7 @@ so, here root element is html tag :16 then 16*2=32 */
 
 /* Here header will take width 50% of parent (body tag) */
 header {
-    width: 50%;
+    width: 100%;
 }
 /* Here h1 child will take width 50% of parent (header tag)
    pixel we can use for the boder for absolute value But for font we should not use. it 
@@ -61,9 +62,10 @@ header {
 h1{
     /* for padding we can use em */
     border: 2px solid blue;
-    width:50%;
-    font-size: 3rem;
-    padding: 1em;
+    width: 50%;
+    font-size: 2rem;
+    
+    
 }
 
 /* Here 1em indicate the font size of the parent element*1.
@@ -72,4 +74,10 @@ so, here parent element is bodyu tag :16 then 16*1=32 */
 main{
     font-size: 1em;
     background-color: cornflowerblue;
+    
+}
+
+.box{
+    margin: 2em;
+    
 }
