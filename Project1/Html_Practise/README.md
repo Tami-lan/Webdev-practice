@@ -32,7 +32,7 @@
 # 5. Units & Values (Absolute: cm, mm, inches, point, pixel, quatar millimeter,picas. 
 #                    Relative:% Percentage, em, rem, vh,vw,ch)
 # 6. Box Model (Content, padding, Border, Margin, Outline)
-# 7.
+# 7. Typography is the way that text is arranged and presented.
 
 
 
