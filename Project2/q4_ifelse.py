@@ -1,5 +1,4 @@
-print("Enter value for meghna wherther alive or not pls answer with this two option \n1.died\n2.not")
-Meghna=input()
+Meghna=input("Meghna died or not?")
 if Meghna=="died":
     print("surya meets priya")
 else:
